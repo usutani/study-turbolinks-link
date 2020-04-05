@@ -1,24 +1,9 @@
-# README
+# JavaScript Usage
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://github.com/turbolinks/turbolinks#api-reference
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+Turbolinks.visit('/home/two') // default is advance.
+Turbolinks.visit('/home/two', { action: 'advance' })
+Turbolinks.visit('/home/two', { action: 'replace' })
+```
